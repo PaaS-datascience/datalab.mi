@@ -135,7 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 #haut {
   width:100%;
   height:100vh;
-  background:url(../img/call-to-action-bg.jpg) top center;
+  # background:url(../img/call-to-action-bg.jpg) top center;
+  background: #000;
   background-size:cover;
   position:relative;
 }
@@ -537,6 +538,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   float:left;
   background:#fff;
   padding:16px;
+  height: 58px;
+  width: 58px;
   border-radius:50%;
   border:2px solid #0B6BA8;
 }
@@ -584,25 +587,71 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size:14px;
 }
 
-/* Services Section
+/* services Section
 --------------------------------*/
 #services {
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/drops.jpg) fixed center center;
+  background-size:cover;
+  padding:80px 0;
+}
+
+#services .cta-title {
+  color:#fff;
+  font-size:28px;
+  font-weight:700;
+}
+
+#services .cta-text {
+  color:#fff;
+}
+
+@media (min-width:769px) {
+  #services .cta-btn-container {
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+  }
+}
+
+#services .cta-btn {
+  font-family:"Poppins", sans-serif;
+  text-transform:uppercase;
+  font-weight:500;
+  font-size:16px;
+  letter-spacing:1px;
+  display:inline-block;
+  padding:8px 30px;
+  border-radius:50px;
+  transition:0.5s;
+  margin:10px;
+  border:2px solid #fff;
+  color:#fff;
+}
+
+#services .cta-btn:hover {
+  background:#0B6BA8;
+  border:2px solid #0B6BA8;
+}
+
+/* eig Section
+--------------------------------*/
+#eig {
   background:#f7f7f7;
   background-size:cover;
   padding:80px 0 60px 0;
 }
 
-#services .box {
+#eig .box {
   padding:50px 20px;
   margin-bottom:50px;
   text-align:center;
   border:1px solid #e6e6e6;
-  height:185px;
+  height:300px;
   position:relative;
   background:#fff;
 }
 
-#services .icon {
+#eig .icon {
   position:absolute;
   top:-36px;
   left:calc(50% - 36px);
@@ -612,44 +661,117 @@ body.mobile-nav-active #mobile-nav-toggle {
   border:6px solid #fff;
 }
 
-#services .icon a {
+#eig .icon a {
   display:inline-block;
   background:#0B6BA8;
   border:2px solid #0B6BA8;
+  height: 60px;
+  width: 60px;
   padding:16px;
   border-radius:50%;
   transition:0.3s;
 }
 
-#services .icon i {
+#eig .icon i {
   color:#fff;
   font-size:24px;
 }
 
-#services .box:hover .icon i {
+#eig .box:hover .icon i {
   color:#0B6BA8;
 }
 
-#services .box:hover .icon a {
+#eig .box:hover .icon a {
   color:#0B6BA8;
   background:#fff;
 }
 
-#services .title {
+#eig .title {
   font-weight:700;
   font-size:18px;
   margin-bottom:15px;
   text-transform:uppercase;
 }
 
-#services .title a {
+#eig .title a {
   color:#111;
 }
 
-#services .description {
+#eig .description {
   font-size:14px;
   line-height:24px;
 }
+
+/* startups Section
+--------------------------------*/
+#startups {
+  background:#f7f7f7;
+  background-size:cover;
+  padding:80px 0 60px 0;
+}
+
+#startups .box {
+  padding:50px 20px;
+  margin-bottom:50px;
+  text-align:center;
+  border:1px solid #e6e6e6;
+  height:200px;
+  position:relative;
+  background:#fff;
+}
+
+#startups .icon {
+  position:absolute;
+  top:-36px;
+  left:calc(50% - 36px);
+  transition:0.2s;
+  border-radius:50%;
+  display:inline-block;
+  border:6px solid #fff;
+}
+
+#startups .icon a {
+  display:inline-block;
+  background:#0B6BA8;
+  border:2px solid #0B6BA8;
+  height: 64px;
+  width: 64px;
+  padding:16px;
+  border-radius:50%;
+  transition:0.3s;
+}
+
+#startups .icon i {
+  color:#fff;
+  font-size:24px;
+}
+
+#startups .box:hover .icon i {
+  color:#0B6BA8;
+}
+
+#startups .box:hover .icon a {
+  color:#0B6BA8;
+  background:#fff;
+}
+
+#startups .title {
+  font-weight:700;
+  font-size:18px;
+  margin-bottom:15px;
+  text-transform:uppercase;
+}
+
+#startups .title a {
+  color:#111;
+}
+
+#startups .description {
+  font-size:14px;
+  line-height:24px;
+}
+
+
 
 /* Call To Action Section
 --------------------------------*/

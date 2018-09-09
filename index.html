@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Site DSIC - LAB</title>
+  <title>Site MGMSIC - datalab</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <!-- favicons -->
   <link href="img/logo_metiers/mi.ico" rel="icon">
@@ -23,14 +23,15 @@
   <!-- debut header -->
   <header id="header">
     <div class="container">
-      <div id="logo" class="pull-left"> <a href="#haut"><img src="img/logo_metiers/lab_logo_b_p1.png" alt="" title="" /></a> </div>
+      <div id="logo" class="pull-left"> <a href="#haut"><img height="96px" src="img/logo_metiers/datalab-round.png" alt="" title="" /></a> </div>
       <!-- debut nav-menu-container -->
       <nav id="nav-menu-container">
         <ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
           <li class="menu-active"><a href="#haut">Accueil</a></li>
-          <li><a href="#about">Le LAB</a></li>
-          <li><a href="#services">Nos startups</a></li>
-          <li><a href="#portfolio">Gallerie</a></li>
+          <li><a href="#about">Le datalab</a></li>
+          <li><a href="#eig">Challenges EIGs</a></li>
+          <li><a href="#startups">Start'ups</a></li>
+          <li><a href="#services">Les services</a></li>
           <li><a href="#team">Equipe</a></li>
           <!--
         <li class="menu-has-children"><a href="">Menu</a>
@@ -60,11 +61,12 @@
   <!-- fin header -->
   <!-- debut section haut -->
   <section id="haut">
+    <iframe src="https://player.vimeo.com/video/280442955?background=1"width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <div class="haut-container">
-      <h1>Le LAB<br>
-      du Ministère de l'Intérieur</h1>
-      <h2>Ecouter, Tester, Transformer</h2>
-      <a href="#about" class="btn-get-started">Commencez</a> </div>
+      <h1>datalab.mi</h1>
+      <h2>Transformez votre métier par la donnée</h2>
+      <p><a href="#about" class="btn-get-started">découvrir</a> <a href="#services" class="btn-get-started">y accéder</a></p>
+      </div>
   </section>
   <!-- fin section haut -->
   <!-- debut main -->
@@ -74,25 +76,47 @@
       <div class="container">
         <div class="row about-container">
           <div class="col-lg-6 content order-lg-1 order-2">
-            <h3 class="title">Le pitch du LAB MI</h3>
-            <p> Depuis mars 2018, le LAB MI accueille et fait grandir les startups issues des propositions d'intrapreneu·r·ses du ministère de l'intérieur. Les produits ainsi développés s'inscrivent dans la stratégie de transformation numérique du ministére
-              en apportant des solutions innovantes aux usagers et aux agents. </p>
+            <h3 class="title">Le datalab</h3>
+            <p> Depuis juin 2016, le datalab soutien la mise en oeuvre de cas d'usages
+              de valorisation de donnée, proposés et conduits avec les directions métiers. </p>
+            <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <div class="icon"><i class="fa fa-database" aria-hidden="true"></i></div>
+              <h4 class="title"> Le patrimoine de donnée </h4>
+              <p class="description">
+                Le <b>patrimoine des données</b> a été cartographié sur <a href="http://catalog.datalab.mi">catalog.datalab.mi</a> en 2017
+                est composé de cinq grandes familles (bien, personnes morales, personnes physiques, titres,
+                données administratives et géogrpahiques). Les enjeux, précisé dans
+                <a href="http://catalog.datalab.mi/fr/posts/patrimoine-des-donnees-du-ministere-de-linterieur/">cet article</a>
+                relèveront à terme du <b>big data</b>. Les données de détail, enfouies au sein du système d'information, sont le plus
+                  souvent sous-exploitée, au mieux au sein d'infocentres faiblement détaillés. Le datalab vous aide à les valoriser.
+               </p>
+              <p class="description"><b> Le datalab permet au métier d'initier l'exploration de toutes leurs données,
+              avec l'appui de datascientist confirmés.</b> </p>
+            </div>
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
               <div class="icon"><i class="fa fa-flask" aria-hidden="true"></i></div>
-              <h4 class="title"> Le LAB MI n'est pas une DSI </h4>
-              <p class="description"> Le cycle de vie d’une startup se termine par son intégration à coût marginal dans le système d’information du ministère de l'intérieur. Elle contribue ainsi à le transformer en lui transférant les principes des méthodes agiles &amp; lean,
-                d'équipe pluridisciplinaire intégrée, de design par la confiance etc. Pour cela, les agents du SI sont inclus au plus tôt dans les startups afin d'anticiper au mieux cette reprise. </p>
-              <p class="description"><b> Le LAB MI est donc responsable d’un flux de produits numériques et non le dépositaire d’un stock.</b> </p>
-            </div>
-            <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-              <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
-              <h4 class="title"> L'écosystème </h4>
-              <p class="description"> Le LAB MI fait partie de l’écosystème beta.gouv.fr qui réunit depuis 2013 de nombreux incubateurs autonomes. Dans ce sens, nous partageons les mêmes objectifs et les mêmes valeurs. Notre ambition est d'amener à l’excellence les individus
-                que nous accueillons – quel que soit leur rôle : responsable de produit, informaticien·ne, coach, designer, chargé·e de développement… – pour construire les services publics les plus utiles à nos concitoyens. </p>
-              <p class="description"> Cet engagement est décrit dans le manifeste d'un incubateur disponible sur le site<a href="https://beta.gouv.fr/incubateurs/" target="_blank"> beta.gouv.fr.</a> </p>
+              <h4 class="title"> La datascience </h4>
+              <p class="description"> La datascience est une activité qui complète le métier traditionnel
+                du décisionnel et de statistiques. Les techniques avancées d'exploitation de la donnée
+                permettent de mettre en exergue des situations métier anormales ou au contraire d'apporter des solutions
+                à des problèmes identifier. S'il est carricaturté avec l'intelligence artificielle
+              (IA, ou apprentissage automatisé), c'est bien les technologies de l'apprentissage qui sont à l'origine
+            de ce nouveau métier. Cependant, l'application de l'IA a pour prérequis une <b>préparation des données</b>
+            qui représente souvent plus de 60% du travail. Ensuite, 20% du temps consistera à de l'algorithmie ou
+            des statistiques simples, voire à appliquer des règles de gestions. L'intelligence artificielle n'est possible
+             que dans des cas bien ciblés, ou lorsqu'il y a déjà une maturité dans la maîtrise des données. Enfin,
+             complexité et bénéfice métier sont indépendants.
+            </p>
+              <p class="description"><b>Aussi il est indispensable d'itérer en collaboration étroite avec
+                le métier pour évaluer la valeur des travaux de datascience </b></p>
             </div>
           </div>
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;"></div>
+          <div class="col-lg-6 order-lg-2 order-1 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+            <h3>&nbsp;</h3>
+            <p><img width="100%" src="img/illustrations/patrimoine_donnees_mi_familles.png" alt=""></p>
+            <h3>&nbsp;</h3>
+            <p><img width="100%" src="img/illustrations/pyramide_datascience.png" alt=""></p>
+          </div>
         </div>
       </div>
     </section>
@@ -100,30 +124,109 @@
     <!-- debut section services -->
     <section id="services">
       <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="row">
+          <div class="col-lg-12 text-center text-lg-left">
+            <h3 class="cta-title">les services</h3>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img  width="200px" src="img/logo_metiers/udata_white.svg" alt="Lab-mi"/>
+                </div>
+                <div class="col-lg-5">
+                  <p class="cta-text">
+                    <br/>
+                    cataloguer et décrire le patrimoine des données<br/>
+                    administrer les cas d'usage<br/>
+                  </p>
+                </div>
+                <div class="col-lg-4 cta-btn-container text-center"> <a class="cta-btn align-middle" style="width:350px" href="https://catalog.datalab.mi">catalog.datalab.mi</a> </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img  width="230px" src="img/logo_metiers/tableau-logo-white.svg" alt="Lab-mi"/>
+                </div>
+                <div class="col-lg-5">
+                  <p class="cta-text">
+                    élaborer, communiquer, visualiser des rapports graphiques<br/>
+                    pour le métier, contrôleur de gestion, statisticien, datascientist<br/>
+                  </p>
+                </div>
+                <div class="col-lg-4 cta-btn-container text-center"> <a class="cta-btn align-middle" style="width:350px" href="https://viz.datalab.mi">viz.datalab.mi</a> </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img  width="200px" src="img/logo_metiers/Logo_dataiku_white.svg" alt="Lab-mi"/>
+                </div>
+                <div class="col-lg-5">
+                  <p class="cta-text">
+                    collecter, mettre en forme, en qualité, alogrithmie, apprentissage simple et profond<br/>
+                    pour data architect, data engineer, data scientist, statisticien, data expert, développeur<br/>
+                    SQL, python/scikit, R, scala, hadoop, tensorflow, ...<br/>
+                  </p>
+                </div>
+                <div class="col-lg-4 cta-btn-container text-center"> <a class="cta-btn align-middle" style="width:350px" href="https://algo.datalab.mi">algo.datalab.mi</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin section services -->
+    <!-- debut section portfolio -->
+    <section id="eig">
+      <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
         <div class="section-header">
-          <h3 class="section-title">Nos startups</h3>
-          <p class="section-description">Nos startups en cours de développement</p>
+          <h3 class="section-title">Les challenges</h3>
+          <p>
+            <a href="https://www.etalab.gouv.fr/fr/entrepreneurs-dinteret-general">
+             <img  class="mx-auto d-block" width="30%" src="img/logo_metiers/eig.svg" alt="">
+            </a>
+          </p>
+          <p class="section-description">Les cas d'usage pris en charge avec
+            <a href="https://www.etalab.gouv.fr/fr/entrepreneurs-dinteret-general">
+              Etalab
+            </a>
+          <br/>
+            Les cas d'usage, ayant vocation à résoudre un irritant du service public,
+            sont sélectionnés par Etalab, <br/> qui organise ensuite un concours pour sélectionner
+            des profils de haute compétence sur une durée de 10 mois.
+          </p>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="https://histovec.interieur.gouv.fr" aria-label="une voiture"><i class="fa fa-car" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="https://histovec.interieur.gouv.fr">Histovec</a></h4>
-              <p class="description">Acheter un véhicule d'occasion en confiance en connaissant son historique.</p>
+              <div class="icon"><a href="http://catalog.datalab.mi/fr/reuses/geodecisionnel-accidents-et-verbalisations-cartav/" aria-label="terminé"><i class="fa fa-check" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="http://catalog.datalab.mi/fr/reuses/geodecisionnel-accidents-et-verbalisations-cartav/"><img  height="80px" width="200px" src="img/logo_metiers/cartav.svg" alt="cartAV"/></a></h4>
+              <p class="description">Augmenter la sécurité sur les routes avec les forces de sécurité intérieure en exploitant les données de verbalisations et d’accidents.</p>
+              <p><b> challenge 2017 - terminé ! </b></p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="#services" aria-label="Point d'exclamation"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="#">Polex</a></h4>
-              <p class="description">Détecter les fraudes organisées à l'examen du code de la route.</p>
+              <div class="icon"><a href="https://matchid-project.github.io/" aria-label="terminé"><i class="fa fa-check" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="https://matchid-project.github.io/"><img  height="80px" width="200px" src="img/logo_metiers/matchID-logo.svg" alt="matchID"/></a></a></h4>
+              <p class="description">rapprochements d'états civils jusqu'à 100 millions d'identités en utilisant le matching flou et l'intelligence artificielle</p>
+              <p><b> challenge 2017 - terminé ! </b></p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
             <div class="box">
-              <div class="icon"><a href="#services" aria-label="Permis de conduire"><i class="fa fa-id-card-o" aria-hidden="true"></i></a></div>
-              <h4 class="title"><a href="#">Candilib</a></h4>
-              <p class="description">Accompagner le passage en candidat libre à l'épreuve pratique du permis de conduire.</p>
+              <div class="icon"><a href="https://previsecours.fr" aria-label="en cours"><i class="fa fa-refresh fa-spin" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="https://previsecours.fr#"><img height="80px" src="img/logo_metiers/previsecours_logo.png" alt="matchID"/></a></h4>
+              <p class="description">Permettre aux sapeurs-pompiers de prévoir leurs interventions futures</p>
+              <p><b> challenge 2018 - en cours ! </b></p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="box">
+              <div class="icon"><a href="http://site-eig.etalab.gouv.fr/defis/2019/iaflash.html" aria-label="en cours"><i class="fa fa-ellipsis-h fa-ellipsis" aria-hidden="true"></i></a></div>
+              <h4 class="title"><a href="http://site-eig.etalab.gouv.fr/defis/2019/iaflash.html#"><img height="80px" src="img/logo_metiers/logo-ia-flash.png" alt="matchID"/></a></h4>
+              <p class="description">Fiabiliser la constatation des contraventions à partir de la reconnaissance d’images</p>
+              <p><b> challenge 2019 - à venir - <a href="http://site-eig.etalab.gouv.fr/candidature-eig.html">candidatez</a> ! </b></p>
             </div>
           </div>
         </div>
@@ -131,86 +234,41 @@
     </section>
     <!-- fin section services -->
     <!-- debut section call-to-action -->
-    <section id="call-to-action">
-      <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Appel à l'action</h3>
-            <p class="cta-text"> Vous êtes le témoin d’irritants récurrents pour les usagers ou les agents ? <br> Sans être nécessairement un(e) expert(e) en informatique, internet vous intéresse ? <br> Vous avez une idée de solution numérique pouvant remédier au problème
-              identifié ? <br> Vous êtes prêt(e) à vous investir six mois autour d’une équipe mobilisée pour réussir ? </p>
-            <p class="cta-text"> Dans ce cas, contactez nous en utilisant le formulaire en bas de cette page ou en utilisant le bonton "Contactez nous", vous serez peut-être sélectionné pour défendre votre projet ! </p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center"> <a class="cta-btn align-middle" href="#contact">Contactez nous</a> </div>
-        </div>
-      </div>
-    </section>
-    <!-- fin section call-to-action -->
-    <!-- debut section portfolio -->
-    <section id="portfolio">
-      <div class="container wow fadeInRight">
-        <div class="section-header">
-          <h3 class="section-title">Gallerie</h3>
-          <p class="section-description">Les équipes des startups en action.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul id="portfolio-flters">
-              <li data-filter=".histovec, .candilib, .polex" class="filter-active">Tout</li>
-              <li data-filter=".histovec">Histovec</li>
-              <li data-filter=".candilib">Candilib</li>
-              <li data-filter=".polex">Polex</li>
-            </ul>
-          </div>
-          <div class="row" id="portfolio-wrapper">
-            <div class="col-lg-3 col-md-6 portfolio-item histovec"> <img src="img/portfolio/histovec/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Histovec</h4>
-                <span>Séance de codage</span> </div>
+    <section id="startups">
+            <div class="container wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+              <div class="section-header">
+                <h3 class="section-title">Les start'ups</h3>
+                <p>
+                  <a href="https://lab-mi.github.io">
+                   <img  class="mx-auto d-block" width="30%" src="img/logo_metiers/lab_logo.png" alt="">
+                  </a>
+                </p>
+                <p class="section-description">Depuis mars 2018, le LAB MI accueille et fait grandir les startups <br/>
+                   issues des propositions d'intrapreneu·r·ses du ministère de l'intérieur. Les produits ainsi développés <br/>
+                    s'inscrivent dans la stratégie de transformation numérique du ministére en apportant des solutions <br/>
+                    innovantes aux usagers et aux agents.<br/> <br/>
+                Le datalab travaille en partenariat avec les start'up pour contribuer <br/>
+                  à l'activité des développements orienté data.<br/>
+                Pour en savoir plus, <a href="https://lab-mi.github.io">consultez le site du LAB MI</a>.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                  <div class="box">
+                    <div class="icon"><a href="https://histovec.interieur.gouv.fr" aria-label="une voiture"><i class="fa fa-car" aria-hidden="true"></i></a></div>
+                    <h4 class="title"><a href="https://histovec.interieur.gouv.fr"><img  height="80px" width="200px" src="img/logo_metiers/histovec.svg" alt="histovec"/></a></h4>
+                    <p class="description">Acheter un véhicule d'occasion en confiance en connaissant son historique.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                  <div class="box">
+                    <div class="icon"><a href="#services" aria-label="Point d'exclamation"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></a></div>
+                    <h4 class="title"><a href="#"><img  height="80px" width="200px" src="img/logo_metiers/polex.svg" alt="histovec"/></a></h4>
+                    <p class="description">Détecter les fraudes organisées à l'examen du code de la route.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-3 col-md-6 portfolio-item histovec"> <img src="img/portfolio/histovec/petit/2.jpg" alt="">
-              <div class="details">
-                <h4>Histovec</h4>
-                <span>Retour utilisateurs</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item candilib"> <img src="img/portfolio/candilib/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Candilib</h4>
-                <span>Echanges avec les utilisateurs</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item candilib"> <img src="img/portfolio/candilib/petit/2.jpg" alt="">
-              <div class="details">
-                <h4>Candilib</h4>
-                <span>Séance de travail</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item candilib"> <img src="img/portfolio/candilib/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Candilib</h4>
-                <span>Rencontre des utilisateurs</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item histovec"> <img src="img/portfolio/histovec/petit/3.jpg" alt="">
-              <div class="details">
-                <h4>Histovec</h4>
-                <span>Amélioration de l'expérience utilisateur</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item polex"> <img src="img/portfolio/polex/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Polex</h4>
-                <span>Point hebdomadaire</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item polex"> <img src="img/portfolio/polex/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Polex</h4>
-                <span>Point hebdomadaire</span> </div>
-            </div>
-            <div class="col-lg-3 col-md-6 portfolio-item polex"> <img src="img/portfolio/polex/petit/1.jpg" alt="">
-              <div class="details">
-                <h4>Polex</h4>
-                <span>Point hebdomadaire</span> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          </section>
     <!-- fin section portfolio -->
     <!-- debut section team -->
     <section id="team">
@@ -222,6 +280,54 @@
         <div class="row">
           <div class="col-lg-3 col-md-6">
             <div class="member">
+              <div class="pic"><img src="img/equipe/petit/fabien_antoine.jpg" alt=""></div>
+              <h4>Fabien ANTOINE</h4>
+              <span>Pilote du datalab, leadtech et datascientist</span>
+              <div class="social"> <a href="https://github.com/rhanka" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/laurent_dupont.png" alt=""></div>
+              <h4>Laurent DUPONT</h4>
+              <span>Leadtech et datascientists</span>
+              <div class="social"> <a href="https://github.com/duplau" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/richard_violet.jpg" alt=""></div>
+              <h4>Richard VIOLET</h4>
+              <span>Intrapreneur Histovec et admin datalab</span>
+              <div class="social"> <a href="https://github.com/RitchyP" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img height="150px" src="img/equipe/petit/daniel_ansellem.jpg" alt=""></div>
+              <h4>Daniel Ansellem</h4>
+              <span>Administrateur ministériel des données</span>
+              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img height="150px" src="img/equipe/petit/philippe_deschamps.jpg" alt=""></div>
+              <h4>Philippe Deschamps</h4>
+              <span>sous-directeur des applications, pilote FTAP</span>
+              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe/petit/amine_fendri.jpg" alt=""></div>
+              <h4>Amine FENDRI</h4>
+              <span>Pilote de l'offre de service de l'entrepôt</span>
+              <div class="social"> <a href="https://github.com/amine-fendri" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
               <div class="pic"><img src="img/equipe/petit/philippe_bron.jpg" alt=""></div>
               <h4>Philippe BRON </h4>
               <span>Pilote LAB</span>
@@ -230,65 +336,9 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/equipe/petit/fabien_antoine.jpg" alt=""></div>
-              <h4>Fabien ANTOINE</h4>
-              <span>Leadtech</span>
-              <div class="social"> <a href="https://github.com/rhanka" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/laurent_dupont.png" alt=""></div>
-              <h4>Laurent DUPONT</h4>
-              <span>Leadtech</span>
-              <div class="social"> <a href="https://github.com/duplau" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/dominique_lequepeys.jpg" alt=""></div>
-              <h4>Dominique LEQUEPEYS</h4>
-              <span>Coach</span>
-              <div class="social"> <a href="https://github.com/dlequepeys" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/richard_violet.jpg" alt=""></div>
-              <h4>Richard VIOLET</h4>
-              <span>Intrapreneur</span>
-              <div class="social"> <a href="https://github.com/RitchyP" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Frédéric GILLODES</h4>
-              <span>Intrapreneur</span>
-              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/philippe_tardieu.jpg" alt=""></div>
-              <h4>Philippe TARDIEU</h4>
-              <span>Infographiste-Ergonome</span>
-              <div class="social"> <a href="https://github.com/Philjem700" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/amine_fendri.jpg" alt=""></div>
-              <h4>Amine FENDRI</h4>
-              <span>PO miroir</span>
-              <div class="social"> <a href="https://github.com/amine-fendri" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Claire LEPONT</h4>
-              <span>Développeuse</span>
+              <h4>Christophe MARQUAILLE</h4>
+              <span>Architecte BI, Lead offre de service data science DSIC</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
@@ -296,39 +346,47 @@
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
               <h4>Adrien FRUMENCE</h4>
-              <span>Datascientist</span>
+              <span>data scientist</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Valérie PROTASSIEFF</h4>
-              <span>Experte DSR</span>
+              <h4>Rémi Gérard</h4>
+              <span>AMOA data</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Simon CAQUE</h4>
-              <span>Expert DSR</span>
+              <h4>Mathieu MANTA</h4>
+              <span>data scientist</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Baudoin TRAN</h4>
-              <span>Développeur</span>
+              <h4>Simone Tchinda</h4>
+              <span>data architect et data scientist</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Philippe LIBAT</h4>
-              <span>Expert cloud &amp; DevOps</span>
+              <h4>Abibatou Kemgné</h4>
+              <span>AMOA data, data scientist</span>
+              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/equipe.jpg" alt=""></div>
+              <h4>Jean-Christophe Montigny</h4>
+              <span>Architecte data</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
@@ -336,40 +394,8 @@
             <div class="member">
               <div class="pic"><img src="img/equipe.jpg" alt=""></div>
               <h4>Stéphane VDOVENKO</h4>
-              <span>Architecte</span>
+              <span>Architecte infra</span>
               <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Abibatou</h4>
-              <span>Datascientist</span>
-              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Amandine</h4>
-              <span>Experte DSR</span>
-              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe.jpg" alt=""></div>
-              <h4>Jean-Pierre FIALEIX</h4>
-              <span>Expert DSR</span>
-              <div class="social"> <a href="#" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/equipe/petit/christophe_lazantsy.jpg" alt=""></div>
-              <h4>Chrsitophe LAZANTSY</h4>
-              <span>Développeur</span>
-              <div class="social"> <a href="https://github.com/karademada" aria-label="github" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> <a href="#" aria-label="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="#" aria-label="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>                <a href="#" aria-label="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </div>
             </div>
           </div>
         </div>
@@ -381,7 +407,7 @@
       <div class="container wow fadeInRight">
         <div class="section-header">
           <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">prenez contact en direct avec Fabien Antoine ou Laurent Dupont, ou écrivez-nous !</p>
         </div>
         <div class="container wow fadeInUp">
           <div class="row justify-content-center">
@@ -391,11 +417,9 @@
                   <p>40, avenue des Terroirs de France<br> 75012 PARIS</p>
                 </div>
                 <div><i class="fa fa-envelope"></i>
-                  <p class="m-b-40">info@exemple.fr</p>
+                  <p class="m-b-40">datalab@interieur.gouv.fr</p>
                 </div>
-                <div><i class="fa fa-twitter"></i>
-                  <p class="tel">@LAB_MinInt</p>
-                </div>
+
               </div>
               <div class="social-links"> <a href="https://www.google.fr/maps/place/40+Avenue+des+Terroirs+de+France,+75012+Paris/@48.8316673,2.3863445,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6723f569f9469:0xcfdae17f9b5eea15!8m2!3d48.8316638!4d2.3885332" class="instagram" target="_blank"><i class="fa fa-map-marker"></i></a>                <a href="mailto:beta@intenieur.gouv.fr" class="google-plus"><i class="fa fa-envelope"></i></a> <a href="https://twitter.com/LAB_MinInt" class="twitter"><i class="fa fa-twitter"></i></a> </div>
             </div>

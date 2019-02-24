@@ -282,7 +282,7 @@
               en production en cas de succès. </p>
   
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-              <div class="icon"><i class="fa fa-check" aria-hidden="true"></i></div>
+              <div class="icon"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
               <h4 class="title"> Les services de l'entrepôt </h4>
               <p class="description" style="margin-bottom:5px;">
                   L'entrepôt vise au déploiement des outils du datalab, et apporte la puissance de l'intelligence
@@ -300,23 +300,30 @@
             </p>
             </div>
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                <div class="icon"><i class="fa fa-refresh fa-spin" aria-hidden="true"></i></div>
-                <h4 class="title"> Feuille de route </h4>
+                <div class="icon"><i class="fa fa-mail-forward" aria-hidden="true"></i></div>
+                <h4 class="title"> Déploiement et RGPD </h4>
                 <p class="description" style="margin-bottom:5px;"> 
-                  Les produits à venir en cours d'intégration, déjà validé dans le datalab:
+                  Le déploiement de l'entrepôt repose sur la sécurité du cloud pour le cloisonnement
+                  et la protection des données. La fonction d'administration des données préconise
+                  un dépoiement séparant :
                 </p>
                   <ul class="description">
-                    <li><b>Udata :</b>produit libre de catalogage de données / cas d'usage</li>
-                    <li><b>Addok :</b> outil libre d'Etat de géocodage d'adresses scalable</li>
-                    <li><b>matchID :</b> outil libre d'Etat de développement d'algorithmes de record linkage</li>
-                    <li><b>Postgis :</b> base de données libre pour les jointures géographiques avancées</li>
-                    <li><b>Elasticsearch :</b> base de données ouverte pour le fuzzy matching grands volumes</li>
-                  </ul>
-                <p class="description" style="margin-bottom:5px;">Produit éligibles restant à valider:</p>
-                <ul class="description">
-                  <li><b>Galigeo :</b> outil de visualisation géographiques</li>
-                  <li><b>Mariadb AX :</b> base analytique libre, successeur potentiel de Vertica</li>
-                </ul>
+                      <li>un entrepôt statistique central par direction métier : 
+                        cet entrepôt peut contenir des dérivées de données nominatives pseudonimisées
+                        pour peut qu'elles n'aient pas d'impact à large échelle. Il s'agit de pouvoir
+                        étudier les tendances comportementales en conservant la maille la plus fine 
+                        des données (individu, véhicule, accident) sans viser des individus.
+                      </li>
+                      <li>un entrepôt par domaine réglementaire, contenant les données nominatives
+                        pour d'une part assure la mise en qualité des données et d'autre part
+                        assurer les traitement d'anonymisation, mais également les analyse de lutte
+                        contre la fraude
+                      </li>
+                    </ul>
+                <p class="description">
+                  <b>Ainsi, pour la sécurité routière, il est préconisé d'appliquer un hash salé
+                      pour les identifiant de permis, et de plaque, afin de faire permettre 
+                    d'étudier le 360 des comportements et causes accidentogènes</b><
                 </p>
               </div>            
             <div class="icon-box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">

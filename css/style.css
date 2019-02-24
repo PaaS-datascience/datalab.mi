@@ -491,50 +491,50 @@ body.mobile-nav-active #mobile-nav-toggle {
   color:#999;
 }
 
-/* About Us Section
+/* datalab Section
 --------------------------------*/
-#about {
+#datalab {
   background:#fff;
   padding:80px 0;
 }
 
-#about .about-container .background {
+#datalab .about-container .background {
   min-height:300px;
   background:url(../img/lumiere.jpg) center top no-repeat;
   margin:60px 0 10px 0;
 }
 
-#about .about-container .content {
+#datalab .about-container .content {
   background:#fff;
 }
 
-#about .about-container .title {
+#datalab .about-container .title {
   color:#333;
   font-weight:700;
   font-size:32px;
 }
 
 @media (max-width:768px) {
-  #about .about-container .title {
+  #datalab .about-container .title {
     padding-top:15px;
   }
 }
 
-#about .about-container p {
+#datalab .about-container p {
   line-height:26px;
 }
 
-#about .about-container p:last-child {
+#datalab .about-container p:last-child {
   margin-bottom:0;
 }
 
-#about .about-container .icon-box {
+#datalab .about-container .icon-box {
   background:#fff;
   background-size:cover;
   padding:0 0 30px 0;
 }
 
-#about .about-container .icon-box .icon {
+#datalab .about-container .icon-box .icon {
   float:left;
   background:#fff;
   padding:16px;
@@ -544,12 +544,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border:2px solid #0B6BA8;
 }
 
-#about .about-container .icon-box .icon i {
+#datalab .about-container .icon-box .icon i {
   color:#0B6BA8;
   font-size:24px;
 }
 
-#about .about-container .icon-box .title {
+#datalab .about-container .icon-box .title {
   margin-left:80px;
   font-weight:500;
   margin-bottom:5px;
@@ -557,15 +557,94 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform:uppercase;
 }
 
-#about .about-container .icon-box .title a {
+#datalab .about-container .icon-box .title a {
   color:#111;
 }
 
-#about .about-container .icon-box .description {
+#datalab .about-container .icon-box .description {
   margin-left:80px;
   line-height:24px;
   font-size:14px;
 }
+
+
+/* lentrepot Section
+--------------------------------*/
+#lentrepot {
+  background:#fff;
+  padding:80px 0;
+}
+
+#lentrepot .about-container .background {
+  min-height:300px;
+  background:url(../img/lumiere.jpg) center top no-repeat;
+  margin:60px 0 10px 0;
+}
+
+#lentrepot .about-container .content {
+  background:#fff;
+}
+
+#lentrepot .about-container .title {
+  color:#333;
+  font-weight:700;
+  font-size:32px;
+}
+
+@media (max-width:768px) {
+  #lentrepot .about-container .title {
+    padding-top:15px;
+  }
+}
+
+#lentrepot .about-container p {
+  line-height:26px;
+}
+
+#lentrepot .about-container p:last-child {
+  margin-bottom:0;
+}
+
+#lentrepot .about-container .icon-box {
+  background:#fff;
+  background-size:cover;
+  padding:0 0 30px 0;
+}
+
+#lentrepot .about-container .icon-box .icon {
+  float:left;
+  background:#fff;
+  padding:16px;
+  height: 58px;
+  width: 58px;
+  border-radius:50%;
+  border:2px solid #0B6BA8;
+}
+
+#lentrepot .about-container .icon-box .icon i {
+  color:#0B6BA8;
+  font-size:24px;
+}
+
+#lentrepot .about-container .icon-box .title {
+  margin-left:80px;
+  font-weight:500;
+  margin-bottom:5px;
+  font-size:18px;
+  text-transform:uppercase;
+}
+
+#lentrepot .about-container .icon-box .title a {
+  color:#111;
+}
+
+#lentrepot .about-container .icon-box .description {
+  margin-left:80px;
+  line-height:24px;
+  font-size:14px;
+}
+
+
 
 /* Facts Section
 --------------------------------*/
